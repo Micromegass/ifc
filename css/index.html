@@ -9,24 +9,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <div class="parent">
-        <img src="./logo.png" class="logo" alt="Logo IFC">
+        <img src="./logo.png" class="logo icon-img" alt="Logo IFC">
         <h1>Ama Casas</h1>
     </div>
+    <div class="box-wrapper">
+        <div class="box">
+            <h2>BIM model: Hacienda </h2>
+            <img class="img-box" src="./hacienda.jpg" alt="Hacienda">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.location.href='/detail.html'">
+                More info
+            </button>
+        </div>
+        <div class="box">
+            <h2>BIM model: Finca</h2> 
+            <img class="img-box" src="./finca.jpg" alt="Finca">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.location.href='/detail.html'">
+                More info
+            </button>
+        </div>
 
-    <div class="box">
-        BIM model: Hacienda 
+        <div class="box">
+            <h2>BIM model: Apartamento </h2>
+            <img class="img-box" src="./apto.jpg" alt="Apto">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.location.href='/detail.html'">
+                More info
+            </button>
+        </div>
     </div>
-
-    <div class="box">
-        BIM model: Finca 
-    </div>
-
-    <div class="box">
-        BIM model: Apartamento 
-    </div>
-    
 </body>
 </html>

@@ -2,10 +2,22 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
+h2 {
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+button {
+    margin:auto;
+    display:block;
+    margin-bottom: 3rem;
+ }
 .parent {
     display: flex;
     text-align: center;
@@ -18,4 +30,42 @@ h1 {
     height: 5rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
+}
+.box {
+  min-height: 15rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  display: inline-block;
+  margin-left: 3rem;
+}
+
+.box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.box-wrapper {
+    margin-top: 3rem;
+}
+.img-box {
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+
+
+ @keyframes animateLogo{
+    25%{
+        transform: rotate(-30deg);
+    }
+}
+.icon-img{
+    animation: animateLogo 8s forwards ease-in-out;
+    animation-iteration-count: infinite;
+}
+.text-bim {
+    margin-top: 3rem;
+    text-align: center;
 }
